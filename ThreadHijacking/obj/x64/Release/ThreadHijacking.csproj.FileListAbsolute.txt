@@ -1,0 +1,6 @@
+C:\Project\Projects\Project_ThreadHijacking\ThreadHijacking\ThreadHijacking\bin\x64\Release\ThreadHijacking.exe.config
+C:\Project\Projects\Project_ThreadHijacking\ThreadHijacking\ThreadHijacking\bin\x64\Release\ThreadHijacking.exe
+C:\Project\Projects\Project_ThreadHijacking\ThreadHijacking\ThreadHijacking\bin\x64\Release\ThreadHijacking.pdb
+C:\Project\Projects\Project_ThreadHijacking\ThreadHijacking\ThreadHijacking\obj\x64\Release\ThreadHijacking.csproj.CoreCompileInputs.cache
+C:\Project\Projects\Project_ThreadHijacking\ThreadHijacking\ThreadHijacking\obj\x64\Release\ThreadHijacking.exe
+C:\Project\Projects\Project_ThreadHijacking\ThreadHijacking\ThreadHijacking\obj\x64\Release\ThreadHijacking.pdb
