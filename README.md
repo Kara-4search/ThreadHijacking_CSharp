@@ -5,7 +5,7 @@ Blog link: may not gonna update
 - Base on my other projects down below.
 	1. [ProcessHollowing](https://github.com/Kara-4search/ProcessHollowing_CSharp)
 	
-- Injecting malicious code into hijacked processes in order to evade process-based defenses as well as possibly elevate privileges. 
+- Injecting malicious code into hijacked processes to evade process-based defenses as well as possibly elevate privileges. 
 - Thread Execution Hijacking is a method of executing arbitrary code in the address space of a separate live process.
 
 ![ThreadHijacking](https://raw.githubusercontent.com/Kara-4search/ProjectPics/main/ThreadHijacking_gif.gif)
@@ -13,10 +13,10 @@ Blog link: may not gonna update
 - Steps
 	1. Create a process in a suspended status;
 	2. Allocate some executable memory for "shellcode" in the target process with VirtualAllocEx.
-	3. Copy the shellocde into the memory with NtWriteVirtualMemory.
+	3. Copy the shellcode into the memory with NtWriteVirtualMemory.
 	4. Retrieve the target thread's context with GetThreadContext.
 	5. Update the target thread's instruction pointer (x64 RIP/x86 EIP register) to point to the shellcode, which was written into the target process's memory in step 3.
-	6. Commit the hijacked thread's (upadated in step 5) new context with SetThreadContext.
+	6. Commit the hijacked thread's (updated in step 5) new context with SetThreadContext.
 	7. Resume the hijacked thread with ResumeThread.
 
 - Tested on Win10 x86/64 works fine.	
