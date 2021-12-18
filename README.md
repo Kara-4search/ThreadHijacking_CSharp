@@ -64,7 +64,7 @@ byte[] buf1 = new byte[323] {
 	3. http://blog.leanote.com/post/snowming/a1427bca0ca7
 	4. https://attack.mitre.org/techniques/T1055/003/
 	5. https://dmcxblue.gitbook.io/red-team-notes-2-0/red-team-techniques/defense-evasion/t1055-process-injection/thread-execution-hijacking
-
+	6. https://www.elastic.co/cn/blog/ten-process-injection-techniques-technical-survey-common-and-trending-process
 
 
 
